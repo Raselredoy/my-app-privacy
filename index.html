@@ -3,45 +3,152 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Privacy Policy</title>
+  <title>Privacy Policy - XYZ Tech</title>
   <style>
+    /* General Styles */
     body {
-      font-family: Arial, sans-serif;
-      margin: 20px;
-      line-height: 1.6;
-    }
-    h1 {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
       color: #333;
+      line-height: 1.6;
+      overflow-x: hidden;
     }
+
+    header {
+      text-align: center;
+      padding: 50px 20px;
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      color: white;
+      animation: fadeIn 1.5s ease-in-out;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      animation: slideUp 1s ease-in-out;
+    }
+
+    h2 {
+      color: #2575fc;
+      margin-top: 30px;
+      font-size: 1.8rem;
+    }
+
     p {
-      color: #555;
+      font-size: 1rem;
+      margin-bottom: 15px;
+      line-height: 1.8;
+    }
+
+    ul {
+      margin-left: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #2575fc;
+      color: white;
+      margin-top: 40px;
+      animation: fadeIn 1.5s ease-in-out;
+    }
+
+    footer p {
+      font-size: 0.9rem;
+      opacity: 0.9;
+    }
+
+    /* Animations */
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    @keyframes slideUp {
+      from {
+        transform: translateY(20px);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      header p {
+        font-size: 1rem;
+      }
+
+      .container {
+        padding: 15px;
+      }
     }
   </style>
 </head>
 <body>
-  <h1>Privacy Policy</h1>
-  <p>Last updated: [Insert Date]</p>
-  <p>Welcome to [Your App Name]. This Privacy Policy explains how we collect, use, and disclose your information when you use our services.</p>
+  <!-- Header Section -->
+  <header>
+    <h1>Privacy Policy</h1>
+    <p>XYZ Tech | Established in 2025</p>
+  </header>
 
-  <h2>Information We Collect</h2>
-  <p>We may collect the following information:</p>
-  <ul>
-    <li><strong>Personal Information:</strong> Name, email address, etc.</li>
-    <li><strong>Usage Data:</strong> Information about how you interact with our app.</li>
-  </ul>
+  <!-- Main Content -->
+  <div class="container">
+    <p>Last Updated: October 2023</p>
+    <p>Welcome to <strong>XYZ Tech</strong>. This Privacy Policy explains how we collect, use, and disclose your information when you use our services.</p>
 
-  <h2>How We Use Your Information</h2>
-  <p>We use your information to:</p>
-  <ul>
-    <li>Provide and maintain our services.</li>
-    <li>Improve and personalize your experience.</li>
-    <li>Send you updates and promotional materials (if you opt-in).</li>
-  </ul>
+    <h2>Information We Collect</h2>
+    <p>We may collect the following information:</p>
+    <ul>
+      <li><strong>Personal Information:</strong> Name, email address, etc.</li>
+      <li><strong>Usage Data:</strong> Information about how you interact with our app or website.</li>
+      <li><strong>Cookies:</strong> Data stored on your device to enhance your experience.</li>
+    </ul>
 
-  <h2>Data Sharing</h2>
-  <p>We do not share your personal information with third parties unless required by law or with your consent.</p>
+    <h2>How We Use Your Information</h2>
+    <p>We use your information to:</p>
+    <ul>
+      <li>Provide and maintain our services.</li>
+      <li>Improve and personalize your experience.</li>
+      <li>Send you updates and promotional materials (if you opt-in).</li>
+    </ul>
 
-  <h2>Contact Us</h2>
-  <p>If you have any questions about this Privacy Policy, please contact us at [Your Email Address].</p>
+    <h2>Data Sharing</h2>
+    <p>We do not share your personal information with third parties unless required by law or with your consent.</p>
+
+    <h2>Contact Us</h2>
+    <p>If you have any questions about this Privacy Policy, please contact us at <a href="mailto:support@xyztech.com">support@xyztech.com</a>.</p>
+  </div>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2025 XYZ Tech. All rights reserved.</p>
+  </footer>
 </body>
 </html>
